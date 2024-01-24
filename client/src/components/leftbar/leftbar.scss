@@ -1,0 +1,56 @@
+.lefbar {
+  flex: 2;
+
+  .container {
+    padding: 20px;
+  }
+
+  hr {
+    margin: 10px 0;
+    border: none;
+    height: 0.5px;
+    background-color: lightgray;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    span {
+      font-size: 12px;
+    }
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+}
