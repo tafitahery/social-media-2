@@ -1,5 +1,13 @@
 .lefbar {
   flex: 2;
+  position: sticky;
+  top: 60px;
+  height: calc(100vh - 60px);
+  overflow: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   .container {
     padding: 20px;
